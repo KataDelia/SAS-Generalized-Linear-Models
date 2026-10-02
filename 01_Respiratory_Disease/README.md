@@ -1,6 +1,3 @@
-Certo. Te lo uniformo allo stesso formato dei **Progetti 2 e 3**, mantenendo uno stile pulito e adatto a un repository GitHub.
-
-```
 # Progetto 1 — Patologie Respiratorie e Fattori di Rischio
 
 ## Panoramica
@@ -99,14 +96,3 @@ In particolare:
 - l'**età** presenta un p-value pari a `0.9615`.
 
 Tutti i valori sono superiori a `0.05`, pertanto non si osservano evidenze statistiche sufficienti per associare individualmente questi predittori alla risposta clinica nel modello a soli effetti principali.
-
----
-
-## Sintesi
-
-L'analisi ha confrontato diversi approcci per lo studio di dati categoriali, combinando la **regressione logistica** con i **modelli log-lineari basati sulla distribuzione di Poisson**.
-
-La regressione logistica, utilizzata per valutare l'associazione tra caratteristiche demografiche e comportamentali e presenza della patologia respiratoria, non ha evidenziato effetti statisticamente significativi per **sesso, fumo ed età** nel modello a soli effetti principali.
-
-I modelli log-lineari permettono invece di analizzare la struttura delle associazioni nella tabella di contingenza attraverso il confronto tra modelli con differenti livelli di complessità, dal modello nullo al modello saturo.
-```
