@@ -1,17 +1,14 @@
-# Progetto 1 — Patologie Respiratorie e Fattori di Rischio
+# Progetto 1: Patologie Respiratorie e Fattori di Rischio
 
 ## Panoramica
 
-L'obiettivo dell'analisi è verificare l'esistenza di associazioni significative tra alcune **variabili demografiche e comportamentali** e la presenza di **patologie respiratorie croniche**.
-
-In particolare, vengono analizzati i seguenti fattori:
+L'obiettivo dell'analisi è verificare l'esistenza di associazioni significative tra alcune **variabili demografiche e comportamentali** e la presenza di **patologie respiratorie croniche**. In particolare, vengono analizzati i seguenti fattori:
 
 - **Sesso**
 - **Età**
 - **Abitudine al fumo**
 
 Il dataset simula un campione di **550 individui**, aggregati all'interno di una **tabella di contingenza multidimensionale**.
-
 L'analisi mira a valutare se le caratteristiche demografiche e comportamentali considerate siano associate alla presenza o all'assenza della patologia respiratoria.
 
 ---
@@ -23,7 +20,6 @@ L'analisi implementa un confronto tra diversi **modelli lineari generalizzati pe
 ### Regressione logistica
 
 La regressione logistica (`PROC LOGISTIC`) viene utilizzata per stimare l'effetto dei predittori sulla probabilità di presenza della patologia respiratoria.
-
 Il modello consente inoltre di ottenere i relativi **Odds Ratio**, utili per quantificare l'associazione tra ciascun predittore e l'esito clinico.
 
 Il modello considera inizialmente i tre fattori:
