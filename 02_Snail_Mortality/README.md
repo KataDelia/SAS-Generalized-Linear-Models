@@ -1,4 +1,4 @@
-# Progetto 2: Analisi di Sopravvivenza dei Lumaconi
+# Progetto 2: Analisi di sopravvivenza dei lumaconi
 
 ## Panoramica
 
