@@ -9,7 +9,6 @@ L'obiettivo dell'analisi è verificare l'esistenza di associazioni significative
 - **Abitudine al fumo**
 
 Il dataset simula un campione di **550 individui**, aggregati all'interno di una **tabella di contingenza multidimensionale**.
-L'analisi mira a valutare se le caratteristiche demografiche e comportamentali considerate siano associate alla presenza o all'assenza della patologia respiratoria.
 
 ---
 
@@ -75,9 +74,7 @@ I test del **Chi-quadrato di Wald** restituiscono i seguenti p-value:
 | Fumo | 0.7102 |
 | Età | 0.9615 |
 
-Tutti i valori risultano superiori alla soglia di significatività di 0.05.
-
-Di conseguenza, nel modello considerato, **nessuno dei tre predittori risulta statisticamente significativo singolarmente** nello spiegare la variabilità della risposta clinica.
+Tutti i valori risultano superiori alla soglia di significatività di 0.05. Di conseguenza, nel modello considerato, **nessuno dei tre predittori risulta statisticamente significativo singolarmente** nello spiegare la variabilità della risposta clinica.
 
 ---
 
